@@ -15,7 +15,6 @@ h1 {
         width: 50%;
         min-width: 500px;
         margin: 0 auto;
-
         background-color: #C7C7C7;
         border-radius: 15px;
 }
@@ -24,7 +23,6 @@ h1 {
         width: 100%;
         margin: 0 auto;
         margin-top: 5%;
-
 }
 
 form>.form_input {
@@ -119,6 +117,7 @@ header a {
 @media (max-width:768px) {
         body{
                 padding-top: 10em;
+                width: 100%;
         }
         #form_container {
                 padding: 2%;
@@ -126,6 +125,7 @@ header a {
                 margin: 0 auto;
                 background-color: #C7C7C7;
                 border-radius: 15px;
+                min-width: 50%;
         }
 
         form>.form_input {
